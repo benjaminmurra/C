@@ -1,0 +1,33 @@
+# Robert Smith -- Check Exam Code Ouputs
+
+stages:
+    - setup
+    - build
+    - test
+
+check-file-structure:
+    stage: setup
+    tags:
+        - ugrad
+    script:
+        - test -d Exam
+        - test -d Exam/lib
+        - test -f Exam/Makefile
+        - test -f Exam/sorting.c
+        - test -f Exam/people.dat
+        - test -f Exam/lib/array_list.c
+        - test -f Exam/lib/array_list.h
+        - test -f Exam/lib/heap.c
+        - test -f Exam/lib/heap.h
+
+grade-exam:
+    stage: test
+    tags:
+        - ugrad
+    script:
+        - cp CI/objects/sorting/* Exam/
+        - cd Exam/
+        - rm -f sorting
+        - make
+        - test -f sorting
+        - ../CI/exam-testing.sh

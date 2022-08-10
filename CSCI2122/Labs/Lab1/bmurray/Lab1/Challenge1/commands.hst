@@ -1,0 +1,24 @@
+    1   mkdir -p Challenge1/one/two/three Challenge1/this/that/theother Challenge1/us/them 
+    2  echo "picking flowers and sing me a song about not letting anything go, ever"   > one/17start
+    3  cd Challenge1
+    4  echo "tell me not to tell me what's for dinner" >  one/two/01never
+    5  echo  "is boring, unless it's about puppies because puppies are awesome" > one/two/19history
+    6  echo "the difference between these two pictures" > one/two/three/08spot 
+    7  echo "is the first day of your new life as a living thing" > one/two/three/09today
+    8  echo "the lions before you put your head in their mouth" > one/two/three/10tame
+    9  echo "ity killed the cat, and that's sad" >  one/two/three/18curious
+   10  echo  "take you out for a steak dinner" > this/05gonna
+   11  echo "children really test the bounds of child abuse law" >  this/15sulky
+   12  echo   "all the way to town using only one leg and an expensive hat" > this/that/06bike
+   13  echo "me a hug and buy me dinner because you're making me hungry" > this/that/11give 
+   14  echo  "rings are expensive things and that's sad" > this/that/12expensive
+   15  echo   "decisions make conscious efforts" > this/that/theother/04conscious
+   16  echo  "should cook dinner for the one you love, especially if it's a puppy" > this/that/theother/16you
+   17  echo "these kids at the door" > us/02card 
+   18  echo  "every puppy you see, but not the flowers" > us/them/03spoil
+   19  echo  "him out of the boat and save yourself" >us/them/13boot
+   20  echo "the garden, unless you're scared of flowers" > us/them/14water
+   21  echo  "the creek without paddle will make me late for dinner" >us/them/20up
+   22  echo "people beatbox their way into my heart" > one/07kindhearted
+   23    echo "picking flowers and sing me a song about not letting anything go, ever"  > one/17start
+   24  history> commands.hst

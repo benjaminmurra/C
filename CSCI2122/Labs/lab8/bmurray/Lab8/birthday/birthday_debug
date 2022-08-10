@@ -1,0 +1,38 @@
+file ./happy_birthday_geralt
+
+break invite_yennefer
+break invite_triss
+break check_money
+break invite_vesemir
+break invite_geralt
+
+run
+
+set var desire = 25
+
+continue
+
+continue
+
+set var triss.money = 10000
+
+n
+set var a = 100
+n
+set var b = 0
+n
+set var c = 0
+n
+set var d = 0
+
+continue
+
+set var memory = malloc(1000)
+
+continue
+
+set var letter->invitation = 0
+set var letter->text = "money money money"
+
+continue
+
